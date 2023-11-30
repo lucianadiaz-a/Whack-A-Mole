@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background-color: #01893f;
+}
+
+.container{
+    height: 500px;
+    width: 475px;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+.score-header{
+    color: yellow;
+    font-size: 25px;
+}
+
+.numbers{
+    color: white;
+    font-size: 50px;
+}
+
+.holes {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.right{
+    float: right;
+}
+    
+#hole1 { grid-area: 1 / 1 / 2 / 2; text-align: left;}
+#hole2 { grid-area: 1 / 2 / 2 / 3; text-align: center;}
+#hole3 { grid-area: 1 / 3 / 2 / 4; text-align: right;}
+#hole4 { grid-area: 2 / 1 / 3 / 2; text-align: left;}
+#hole5 { grid-area: 2 / 2 / 3 / 3; text-align: center;}
+#hole6 { grid-area: 2 / 3 / 3 / 4; text-align: right;}
+#hole7 { grid-area: 3 / 1 / 4 / 2; text-align: left;}
+#hole8 { grid-area: 3 / 2 / 4 / 3; text-align: center;}
+#hole9 { grid-area: 3 / 3 / 4 / 4; text-align: right;}
+
+img{
+    max-width: 70%;
+    max-height: 70%;
+    margin: auto;
+}
+
+.reset{
+    margin-top: 30px;
+    text-align: center;
+}
+
+button {
+    border-color: yellow;
+    background-color: #01893f;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    color: yellow;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#game{
+    margin-right: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+#over{
+    margin-left: 50px;
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Whack-A-Mole</title>
+    <link rel='stylesheet' href='mole.css'>
+</head>
+<body>
+    <div class="container">
+        <div class="score-header">
+            <span class="left">Timer:</span> 
+            <span class="right">Score:</span> <br>
+        </div>
+        <div class="numbers">
+            <span class="left" id="timer">20</span>
+            <span class="right" id="score">0</span>
+        </div>
+        <div class="holes">
+            <div id="hole1"> <img src="hole.png"></div>
+            <div id="hole2"> <img src="hole.png"></div>
+            <div id="hole3"> <img src="hole.png"></div>
+            <div id="hole4"> <img src="hole.png"></div>
+            <div id="hole5"> <img src="hole.png"></div>
+            <div id="hole6"> <img src="hole.png"></div>
+            <div id="hole7"> <img src="hole.png"></div>
+            <div id="hole8"> <img src="hole.png"></div>
+            <div id="hole9"> <img src="hole.png"></div>
+        </div>
+        <div class="reset">
+            <span id="game"> </span>
+            <button type="button" id="button">Reset Game</button>
+            <span id="over"> </span>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+<script src="play.js"></script>
+</html>
